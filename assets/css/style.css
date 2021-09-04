@@ -71,6 +71,11 @@
     
   }
 
+  /* needs work!!! */
+  section img .bigger {
+  width: 75%; 
+  height: auto;
+}
   
 
   .about {
