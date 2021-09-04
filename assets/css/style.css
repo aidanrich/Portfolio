@@ -70,7 +70,7 @@
   section p {
     border: 10px;
     flex: 2;
-    margin-top: 30px;
+    margin: auto;
   }
 
   
@@ -100,5 +100,4 @@
   .contact a {
     justify-content: space-around;
     padding: 20px;
-    margin-top: 20px;
   }
