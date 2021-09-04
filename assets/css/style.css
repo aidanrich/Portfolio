@@ -87,3 +87,8 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .contact a {
+    justify-content: space-around;
+    padding: 14px 20px;
+  }
