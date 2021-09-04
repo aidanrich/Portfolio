@@ -62,8 +62,8 @@
     flex: 2;
   }
 
-  section img {
-    width: 25%;
+  section p img {
+    width: 500px;
     height: auto;
     border: 5px var(--textcolor);
     border-style: solid;
@@ -71,27 +71,16 @@
     
   }
 
-  /* needs work!!! */
-  section img .bigger {
-  width: 75%; 
-  height: auto;
-}
+  .smaller img {
+    width: 25%;
+    height: auto;
+    border: 5px var(--textcolor);
+    border-style: solid;
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+
   
-
-  .about {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .work {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .contact {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
   .contact a {
     justify-content: space-around;
