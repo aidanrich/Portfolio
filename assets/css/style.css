@@ -1,7 +1,13 @@
 * {
-    box-sizing: border-box;
+    
   }
-  
+
+  :root {
+    --textcolor: rgb(97, 97, 97);
+
+
+  }
+
   body {
     font-family: Arial;
     margin: 0;
@@ -20,9 +26,7 @@
   */
   nav {
     display: flex;
-    
     justify-content: flex-end;
-    
   }
   
   nav a {
@@ -32,21 +36,54 @@
     text-align: center;
   }
 
-section h1 {
+  article {
+    
+  }
 
+  section {
+    display: flex;
+    color: var(--textcolor);
+    flex-direction: row;
+    
+   
 }
 
-  section p {
-    border: 100px;
-
+  section h1 {
+    text-align: center;
+    margin: 10px;
+    border-right: 2px solid var(--textcolor);
+    padding: 10px;
+    flex: 1;
+  
   }
+
+  section p {
+    border: 10px;
+    flex: 2;
+  }
+
+  section img {
+    width: 25%;
+    height: auto;
+    border: 5px var(--textcolor);
+    border-style: solid;
+    margin: 10px;
+    
+  }
+
+  
 
   .about {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .work {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact {
     display: flex;
     flex-wrap: wrap;
   }
