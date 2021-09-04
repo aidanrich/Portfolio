@@ -11,19 +11,24 @@
   body {
     font-family: Arial;
     margin: 0;
+    
   }
   
   header {
     padding: 40px;
     text-align: left;
-    background-color: #13293d;
+    background-color: var(--textcolor);
     color: #fff;
   }
+
+  header h1 {
+    background-color: lightcoral ;
+    max-width: 300px;
+    height: 50px;
+    padding: 8px;
+  }
   
-  /* 
-  What happens when we set the display property to flex?
-  The flex container becomes flexible 
-  */
+  
   nav {
     display: flex;
     justify-content: flex-end;
@@ -37,7 +42,7 @@
   }
 
   article {
-    
+    background-color: rgb(219, 219, 219);
   }
 
   section {
@@ -46,6 +51,11 @@
     flex-direction: row;
    
 }
+
+  h1 {
+    font-size: 200%;
+
+  }
 
   section h1 {
     text-align: right;
@@ -60,11 +70,10 @@
   section p {
     border: 10px;
     flex: 2;
+    margin-top: 30px;
   }
 
-.work p {
-    flex-direction: column;
-  }
+  
   
   section p img {
     width: 500px;
@@ -72,7 +81,7 @@
     border: 5px var(--textcolor);
     border-style: solid;
     margin: 10px;
-    flex: 1;
+    
     
   }
 
@@ -83,12 +92,13 @@
     border-style: solid;
     margin: 10px;
     
-    flex: 2;
+    
   }
 
   
 
   .contact a {
     justify-content: space-around;
-    padding: 14px 20px;
+    padding: 20px;
+    margin-top: 20px;
   }
