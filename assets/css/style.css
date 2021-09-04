@@ -41,7 +41,7 @@ section h1 {
 
   }
 
-  .products {
+  .about {
     display: flex;
     flex-direction: row;
   }
