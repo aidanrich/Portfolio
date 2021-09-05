@@ -85,6 +85,11 @@
     height: auto;
   }
 
+  .about {
+    margin-right: 20px;
+  }
+
+
   .smaller img {
     width: 25%;
     height: auto;   
@@ -112,4 +117,20 @@
   .contact a {
     justify-content: space-around;
     padding: 20px;
+  }
+
+  footer {
+    color: white;
+    background-color: var(--textcolor);
+    text-align: center;
+    padding: 50px;
+  }
+
+  footer h2 {
+    background-color: lightcoral;
+    max-width: 400px;
+    padding: 8px;
+    position: absolute;
+    left: 410px;
+    bottom: 5px; 
   }
