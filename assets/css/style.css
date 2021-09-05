@@ -73,26 +73,21 @@
     margin: auto;
   }
 
-  
+  .container {
+    border: 5px var(--textcolor);
+    border-style: solid;
+    margin: 10px;
+  }
   
   section p img {
     width: 500px;
     height: auto;
-    border: 5px var(--textcolor);
-    border-style: solid;
-    margin: 10px;
-    
-    
   }
 
   .smaller img {
     width: 25%;
     height: auto;
-    border: 5px var(--textcolor);
-    border-style: solid;
-    margin: 10px;
-    
-    
+      
   }
 
   
