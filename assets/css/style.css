@@ -77,19 +77,36 @@
     border: 5px var(--textcolor);
     border-style: solid;
     margin: 10px;
+    
   }
   
-  section p img {
+  img {
     width: 500px;
     height: auto;
   }
 
   .smaller img {
     width: 25%;
-    height: auto;
-      
+    height: auto;   
   }
 
+  .bob {
+    position: relative;
+    display: flex;
+  }
+
+  .overlay {
+    position: absolute; 
+    bottom: 34px; 
+    left: 15px;
+    background: var(--textcolor);
+    color: white; 
+    width: 25%;
+    
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
   
 
   .contact a {
