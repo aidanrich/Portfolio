@@ -123,6 +123,7 @@
     font-size: 100%;
     padding: 2%;
     text-align: center;
+    min-width: 90px;
   }
   
   .bob2 {
@@ -136,10 +137,11 @@
     left: 15px;
     background: var(--textcolor);
     color: white; 
-    width: 30%;
+    width: 35%;
     font-size: 100%;
     padding: 7%;
     text-align: center;
+    min-width: 90px;
   }
 
 
