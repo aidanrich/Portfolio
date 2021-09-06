@@ -101,7 +101,7 @@
 
 
   .smaller {
-    width: 225px;
+    width: 233px;
     height: auto;
     border: 5px var(--textcolor);
     border-style: solid;
@@ -119,13 +119,32 @@
     left: 15px;
     background: var(--textcolor);
     color: white; 
-    width: 100px;
+    width: 160px;
     
     font-size: 20px;
     padding: 20px;
     text-align: center;
   }
   
+  .bob2 {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .overlay2 {
+    position: absolute; 
+    bottom: 34px; 
+    left: 15px;
+    background: var(--textcolor);
+    color: white; 
+    width: 160px;
+    
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+
 
   .contact a {
     justify-content: space-around;
