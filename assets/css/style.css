@@ -27,6 +27,11 @@
     height: 50px;
     padding: 8px;
   }
+
+  .portrait {
+    height: 30px;
+    width: auto;
+  }
   
   
   nav {
