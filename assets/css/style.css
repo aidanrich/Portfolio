@@ -29,8 +29,14 @@
   }
 
   .portrait {
-    height: 30px;
-    width: auto;
+    height: 100px;
+    max-width: 316px;
+    background-image: url("../images/portrait.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 178px;
   }
   
   
@@ -63,6 +69,7 @@
     display: flex;
     color: var(--textcolor);
     flex-direction: row;
+    margin: 0 20px 0 0;
    
 }
 
