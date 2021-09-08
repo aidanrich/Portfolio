@@ -1,4 +1,5 @@
-* {scroll-behavior: smooth;
+* {
+    scroll-behavior: smooth;
     
   }
 
@@ -75,7 +76,6 @@
 
   h1 {
     font-size: 200%;
-
   }
 
   section h1 {
@@ -84,8 +84,6 @@
     border-right: 2px solid var(--textcolor);
     padding: 20px;
     flex: 1;
-    
-  
   }
 
   section p {
@@ -101,7 +99,6 @@
   img {
     width: 100%;
     height: auto;
-    
   }
 
   .container {
@@ -139,8 +136,7 @@
   }
   
   .bob2 {
-    flex-direction: row;
-    
+    flex-direction: row; 
   }
 
   .overlay2 {
@@ -175,5 +171,4 @@
     max-width: 350px;
     padding: 8px;
     left: 410px;
-    
   }
