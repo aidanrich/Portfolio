@@ -173,3 +173,41 @@
     padding: 8px;
     left: 410px;
   }
+
+  @media only screen and (max-width: 450px) {
+     
+    .bob {
+      position: relative;
+      display:inline;
+    }
+    .smaller {
+      height: auto;
+      
+      border: 5px var(--textcolor);
+      border-style: solid;
+      margin: 10px;  
+    }
+   
+    section p {
+      border: 10px;
+      flex: 2;
+      margin-top: 15px;
+      margin-right: 20px;
+    }
+    .contact a {
+      justify-content: space-around;
+      padding: 15px;
+      display: flex;
+    }
+
+  }
+
+  @media only screen and (max-width: 450px) {
+     
+    .bob2 {
+      flex-direction: row; 
+      margin-right: 0;
+    }
+  
+   
+  }
